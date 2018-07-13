@@ -5027,3 +5027,121 @@ totalMemory: 15.77GiB freeMemory: 364.25MiB
 [W 22:43:54.846 NotebookApp] delete /Quadcopter_Project 2.ipynb
 [I 22:43:55.851 NotebookApp] Kernel shutdown: 14718402-0502-4d15-8291-5cccb3337e5d
 [W 22:43:55.853 NotebookApp] delete /Quadcopter_Project 2-Copy1.ipynb
+[I 22:46:48.110 NotebookApp] Starting buffering for 961cd293-3f0e-4734-ab08-ab74fe86ad89:de9296bb9b40491ea89816586bf517fa
+[C 15:41:30.526 NotebookApp] received signal 15, stopping
+[I 15:41:30.527 NotebookApp] Shutting down 1 kernel
+[I 15:41:30.828 NotebookApp] Kernel shutdown: 961cd293-3f0e-4734-ab08-ab74fe86ad89
+[I 17:47:08.267 NotebookApp] Using EnvironmentKernelSpecManager...
+[I 17:47:08.268 NotebookApp] Started periodic updates of the kernel list (every 3 minutes).
+[I 17:47:09.539 NotebookApp] JupyterLab beta preview extension loaded from /home/ec2-user/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 17:47:09.539 NotebookApp] JupyterLab application directory is /home/ec2-user/anaconda3/share/jupyter/lab
+[I 17:47:09.552 NotebookApp] [nb_conda] enabled
+/home/ec2-user/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ec2-user/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ec2-user/anaconda3/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ec2-user/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+[I 17:47:10.606 NotebookApp] sparkmagic extension enabled!
+[I 17:47:10.613 NotebookApp] Serving notebooks from local directory: /home/ec2-user/Quadcopter_Project
+[I 17:47:10.613 NotebookApp] 0 active kernels
+[I 17:47:10.613 NotebookApp] The Jupyter Notebook is running at:
+[I 17:47:10.613 NotebookApp] http://localhost:8888/?token=13b1abea8eb280e33dcd4ef13490bd299f9cc6690d062490
+[I 17:47:10.613 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:47:10.614 NotebookApp] No web browser found: could not locate runnable browser.
+[C 17:47:10.614 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=13b1abea8eb280e33dcd4ef13490bd299f9cc6690d062490
+[I 17:47:10.614 NotebookApp] Starting initial scan of virtual environments...
+[I 17:47:13.920 NotebookApp] Found new kernels in environments: conda_theano_p27, conda_anaconda3, conda_cntk_p27, conda_mxnet_p36, conda_caffe_p27, conda_caffe_p35, conda_pytorch_p36, conda_pytorch_p27, conda_caffe2_p27, conda_chainer_p36, conda_python2, conda_theano_p36, conda_chainer_p27, conda_tensorflow_p36, conda_cntk_p36, conda_python3, conda_tensorflow_p27, conda_mxnet_p27
+[I 17:47:33.152 NotebookApp] 302 GET / (127.0.0.1) 0.98ms
+[I 17:47:33.216 NotebookApp] 302 GET /tree? (127.0.0.1) 1.49ms
+[I 17:47:38.135 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 0.96ms
+[E 17:47:53.639 NotebookApp] Couldn't get environment variables for commands: ['source', 'activate', '/home/ec2-user/anaconda3/envs/tensorflow_p36']
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 61, in source_env_vars_from_command
+        return source_bash(args)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 73, in source_bash
+        return source_foreign(new_args, stdin=stdin)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 191, in source_foreign
+        seterrpostcmd=ns.seterrpostcmd)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 433, in foreign_shell_data
+        universal_newlines=True)
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 336, in check_output
+        **kwargs).stdout
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 418, in run
+        output=stdout, stderr=stderr)
+    subprocess.CalledProcessError: Command '['bash', '-i', '-c', 'set -e\nsource activate /home/ec2-user/anaconda3/envs/tensorflow_p36\necho __XONSH_ENV_BEG__\nenv\necho __XONSH_ENV_END__']' returned non-zero exit status 1.
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/envs_conda.py", line 52, in _get_env_vars_for_conda_env
+        envs = source_env_vars_from_command(args)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 63, in source_env_vars_from_command
+        return source_zsh(args)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 82, in source_zsh
+        return source_foreign(new_args, stdin=stdin)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 191, in source_foreign
+        seterrpostcmd=ns.seterrpostcmd)
+      File "/home/ec2-user/anaconda3/lib/python3.6/site-packages/environment_kernels/activate_helper.py", line 433, in foreign_shell_data
+        universal_newlines=True)
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 336, in check_output
+        **kwargs).stdout
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 403, in run
+        with Popen(*popenargs, **kwargs) as process:
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 709, in __init__
+        restore_signals, start_new_session)
+      File "/home/ec2-user/anaconda3/lib/python3.6/subprocess.py", line 1344, in _execute_child
+        raise child_exception_type(errno_num, err_msg, err_filename)
+    FileNotFoundError: [Errno 2] No such file or directory: 'zsh': 'zsh'
+[I 17:47:53.652 NotebookApp] Kernel started: 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f
+[I 17:47:57.309 NotebookApp] Adapting to protocol v5.1 for kernel 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f
+[I 17:49:56.889 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 17:50:10.690 NotebookApp] Starting buffering for 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f:17604045ec5340fd846d8c955985e46b
+[I 17:50:10.909 NotebookApp] Kernel restarted: 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f
+[I 17:50:11.661 NotebookApp] Adapting to protocol v5.1 for kernel 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f
+[I 17:50:11.662 NotebookApp] Restoring connection for 37eac602-4a3a-4e43-b3b4-0a19e2e5a46f:17604045ec5340fd846d8c955985e46b
+[I 17:50:11.662 NotebookApp] Replaying 6 buffered messages
+2018-07-13 17:51:03.746270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-07-13 17:51:03.746856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1212] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1b.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2018-07-13 17:51:03.843831: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-07-13 17:51:03.844373: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1212] Found device 1 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1c.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2018-07-13 17:51:03.940060: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-07-13 17:51:03.940608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1212] Found device 2 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1d.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2018-07-13 17:51:04.074206: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-07-13 17:51:04.074748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1212] Found device 3 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:00:1e.0
+totalMemory: 15.77GiB freeMemory: 15.36GiB
+2018-07-13 17:51:04.075747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1227] Device peer to peer matrix
+2018-07-13 17:51:04.076753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1233] DMA: 0 1 2 3 
+2018-07-13 17:51:04.076764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1243] 0:   Y Y Y Y 
+2018-07-13 17:51:04.076770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1243] 1:   Y Y Y Y 
+2018-07-13 17:51:04.076775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1243] 2:   Y Y Y Y 
+2018-07-13 17:51:04.076781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1243] 3:   Y Y Y Y 
+2018-07-13 17:51:04.076792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1312] Adding visible gpu devices: 0, 1, 2, 3
+2018-07-13 17:51:06.161203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14869 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1b.0, compute capability: 7.0)
+2018-07-13 17:51:06.414811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 14869 MB memory) -> physical GPU (device: 1, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1c.0, compute capability: 7.0)
+2018-07-13 17:51:06.669192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 14869 MB memory) -> physical GPU (device: 2, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1d.0, compute capability: 7.0)
+2018-07-13 17:51:06.923072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 14869 MB memory) -> physical GPU (device: 3, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+[I 17:51:54.877 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 17:53:56.359 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 17:55:55.348 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 17:57:54.903 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 17:59:54.907 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:01:54.914 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:03:55.189 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:05:55.172 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:07:55.179 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:09:55.318 NotebookApp] Saving file at /Quadcopter_Project.ipynb
+[I 18:11:21.949 NotebookApp] Saving file at /Quadcopter_Project.ipynb
